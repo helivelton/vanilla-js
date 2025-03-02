@@ -2,8 +2,8 @@
   "scripts": {
     "build": "npm run build:sass && npm run build:css && npm run build:js",
     "build:sass": "sass styles/style.scss styles/style.css",
-    "build:css": "cleancss -o styles/style.min.css styles/style.css",
-    "build:js": "terser scripts/main.js -o scripts/main.min.js --compress --mangle"
+    "build:css": "cleancss -o public/style.min.css styles/style.css",
+    "build:js": "terser scripts/main.js -o public/main.min.js --compress --mangle"
   },
   "dependencies": {
     "clean-css-cli": "^5.6.3",
