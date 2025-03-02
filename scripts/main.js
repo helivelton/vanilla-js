@@ -1,3 +1,13 @@
-// This is the main JavaScript file
+console.log('begin of the script');
 
-console.log('Hello from main.js'); 
+// When content is loaded:
+document.addEventListener('DOMContentLoaded', () => {
+    const yearElement = document.getElementById('year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    } else {
+        console.error('Year element not found');
+    }
+});
+
+console.log('end of the script');

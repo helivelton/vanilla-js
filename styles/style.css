@@ -1,0 +1,41 @@
+body {
+  background-color: #282A36;
+  color: #f8f8f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  flex: 1;
+}
+
+header, footer {
+  text-align: center;
+  padding: 10px 0;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+#contact-email {
+  color: #5860b5;
+  text-decoration: none;
+}
+
+#contact-email:hover {
+  color: #6272a4;
+}
+
+/*# sourceMappingURL=style.css.map */
