@@ -20,7 +20,8 @@ h1 {
   flex: 1;
 }
 
-header, footer {
+header,
+footer {
   text-align: center;
   padding: 10px 0;
 }
@@ -36,6 +37,15 @@ section {
 
 #contact-email:hover {
   color: #6272a4;
+}
+
+a {
+  color: #9698b0;
+  text-decoration: none
+}
+
+a:hover {
+  color: #6272a4
 }
 
 /*# sourceMappingURL=style.css.map */
